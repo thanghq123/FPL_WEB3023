@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+nav {
+    background-color: #075A7A;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 10px 10px 0px;
+    border-right: 1px solid #FFFFFF;
+    display: block;
+}
+
+nav ul li {
+    position: relative;
+    text-align: center;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+}
+
+#text-drop {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000000;
+}

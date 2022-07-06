@@ -1,0 +1,332 @@
+@media (max-width: 1023px) {
+    .wrapper {
+        font-size: 14px;
+    }
+    .heading-large {
+        font-size: 52px;
+        line-height: calc(56 / 52);
+    }
+    .heading-medium {
+        font-size: 32px;
+        line-height: calc(42 / 32);
+    }
+    .heading-normal {
+        font-size: 24px;
+        line-height: calc(32 / 24);
+    }
+    .heading-small {
+        font-size: 20px;
+        line-height: calc(28 / 20);
+    }
+    .text {
+        line-height: calc(24 / 14);
+    }
+    .mgb180 {
+        margin-bottom: 70px;
+    }
+    .section-heading {
+        margin-bottom: 9px;
+    }
+    .section-header-text {
+        margin-bottom: 35px;
+    }
+    .header-navigation {
+        justify-content: flex-start;
+    }
+    .header-menu {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 9;
+        transform: translateX(150%);
+        padding: 20px;
+        transition: transform 0.2s linear;
+        background-color: var(--heading-color);
+        width: 60%;
+    }
+    .header-menu .menu .menu-link {
+        padding: 8px 0;
+    }
+    .header-menu.is-show {
+        transform: none;
+    }
+    .header-menu ul {
+        flex-direction: column;
+    }
+    .header-buttons {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    .header-buttons a {
+        padding: 6px 16px;
+    }
+    .list-icon {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .list-icon * {
+        pointer-events: none;
+    }
+    .header-banner {
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    .header-banner-text {
+        text-align: center;
+    }
+    .header-banner-desc {
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        margin: 14px 0 24px;
+    }
+    .header-banner-img {
+        width: 50%;
+    }
+    #form-banner {
+        margin: 0 auto;
+    }
+    #form-banner button {
+        padding: 8px 16px;
+    }
+    #form-banner .form-group {
+        padding: 8px 0 8px 8px;
+    }
+    .logos {
+        margin-top: 50px;
+    }
+    .logos-heading {
+        margin-bottom: 15px;
+    }
+    .how-it-works-list {
+        gap: 0 15px;
+    }
+    .how-it-works-content-title {
+        height: 50px;
+    }
+    .feature-list {
+        margin: 14px 0 19px;
+    }
+    .feature .started-btn {
+        padding: 8px 16px;
+    }
+    .jobs-list {
+        gap: 24px 16px;
+    }
+    .jobs-item {
+        padding: 16px 22px;
+    }
+    .tags {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px 0;
+        margin: 11px 0 22px;
+    }
+    .job-title {
+        height: 110px;
+    }
+    .job-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px 0;
+    }
+    .job-info .factory {
+        gap: 0 10px;
+    }
+    .job-info .apply-btn {
+        align-self: center;
+    }
+    .jobs .show-more {
+        margin-top: 24px;
+        padding: 12px 24px;
+    }
+    .testimonial .section-header {
+        margin-bottom: 30px;
+    }
+    .testimonial-show-all {
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        padding: 8px 20px;
+    }
+    .testimonial-list {
+        gap: 0 16px;
+        margin-bottom: 28px;
+    }
+    .testimonial-item {
+        padding: 22px 16px;
+    }
+    .testimonial-desc {
+        margin: 11px 0 22px;
+    }
+    .testimonial-author .author-name {
+        font-size: 14px;
+    }
+    .testimonial-author .author-pos {
+        font-size: 12px;
+    }
+    .banner-2-container {
+        padding: 32px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px 0;
+    }
+    .banner-2-heading {
+        max-width: 100%;
+    }
+    .banner-2 .upload-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+        line-height: calc(24 / 14);
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    .footer-top {
+        padding: 24px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: right;
+        gap: 20px 0;
+    }
+    .footer-heading {
+        max-width: 100%;
+    }
+    .footer-top-link {
+        padding: 12px 20px;
+    }
+    .footer-menu {
+        padding: 24px 0;
+        gap: 0 24px;
+    }
+}
+
+@media (max-width: 639px) {
+    .wrapper {
+        font-size: 12px;
+    }
+    .heading-large {
+        font-size: 42px;
+        line-height: calc(52 / 42);
+    }
+    .heading-medium {
+        font-size: 28px;
+        line-height: calc(32 / 28);
+    }
+    .heading-normal {
+        font-size: 20px;
+        line-height: calc(24 / 20);
+    }
+    .heading-small {
+        font-size: 18px;
+        line-height: calc(20 / 18);
+    }
+    .text {
+        line-height: calc(18 / 12);
+    }
+    .mgb180 {
+        margin-bottom: 35px;
+    }
+    .section-heading {
+        margin-bottom: 9px;
+    }
+    .section-header-text {
+        margin-bottom: 28px;
+    }
+    .header-navigation {
+        margin-bottom: 24px;
+    }
+    .header-buttons {
+        margin-right: 5px;
+    }
+    .header-buttons a {
+        padding: 4px 8px;
+    }
+    .header-banner-desc {
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        margin: 8px 0;
+    }
+    .logos-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px 20px;
+    }
+    .logos-item {
+        flex-shrink: 0;
+    }
+    .how-it-works-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px 0;
+    }
+    .how-it-works-item {
+        padding: 24px 32px;
+    }
+    .how-it-works-item .icon {
+        margin-bottom: 20px;
+    }
+    .how-it-works-item .icon img {
+        width: 50px;
+    }
+    .how-it-works-content-title {
+        height: fit-content;
+    }
+    .how-it-work-desc {
+        margin: 8px 0;
+    }
+    .feature .container {
+        flex-direction: column-reverse;
+        gap: 10px 0;
+    }
+    .feature-list {
+        margin: 8px 0;
+    }
+    .jobs-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px 0;
+    }
+    .jobs-item {
+        padding: 32px 20px;
+    }
+    .job-title {
+        height: fit-content;
+    }
+    .tags {
+        flex-direction: row;
+        align-items: center;
+        gap: 0 28px;
+    }
+    .job-info {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .job-info .apply-btn {
+        padding: 8px 28px;
+    }
+    .testimonial .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px 0;
+    }
+    .testimonial-list {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 20px 0;
+    }
+    .testimonial-item {
+        padding: 16px 28px;
+    }
+    .testimonial-desc {
+        margin: 8px 0;
+    }
+    .footer-top {
+        text-align: left;
+    }
+    .footer-menu {
+        gap: 0 8px;
+    }
+}

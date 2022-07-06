@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-main {
+    height: 100px;
+    background-color: #000000;
+}
+
+.nav-main {
+    height: 40px;
+    background-color: chocolate;
+}
+.slider {
+    height: 200px;
+    background-color: green;
+}
+.content {
+    height: 800px;
+}
+.footer-main {
+    height: 100px;
+    background-color: brown;
+}
