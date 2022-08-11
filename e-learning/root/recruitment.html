@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2dc85afe8a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/responsive.css">
+    <title>Danh sách việc làm</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header Start -->
+        <header class="header">
+            <div class="container">
+
+                <!-- Menu Start -->
+                <div class="header__menu">
+                    <a href="#" class="logo">
+                        <img src="../src/img/header/logo.png" alt="" class="logo-image" />
+                    </a>
+                    <ul class="menu">
+                        <li class="menu-item active">
+                            <a href="#" class="menu-link text">Trang chủ</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link text">Tuyển dụng</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link text">Khóa học</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link text">Blogs</a>
+                        </li>
+                    </ul>
+                    <div class="header__buttons">
+                        <a href="#" class="btn signup-btn header__button normal-btn" id="signup-btn">Đăng ký</a>
+                        <a href="#" class="btn signin-btn header__button" id="signin-btn">Đăng nhập</a>
+                    </div>
+                    <span class="menu-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                </div>
+                <!-- Menu End -->
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <main>
+            <section class="recruitment-banner courses-banner section" style="background-image: url(../src/img/banner/banner3.jpg);">
+                <div class="opacity">
+                    <div class="container">
+                        <h1 class="heading heading--large">
+                            TUYỂN DỤNG
+                        </h1>
+                        <p>
+                            Lesson chính là nơi khởi đầu cho những thành công của các kỹ sư CNTT trong tương lai, cung cấp và đào tạo nguồn nhân lực IT chất lượng cao cho các dự án lớn trên toàn cầu
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="recruitment-main section">
+                <div class="recruitment-filter">
+                    <div class="container">
+                        <form action="" id="recruitment-filter-form">
+                            <input type="text" name="keywords" class="form-control" placeholder="Từ khóa">
+                            <select name="technology" id="" class="form-control">
+                                    <option value="">Công nghệ</option>
+                                    <option value=".net">.NET</option>
+                                    <option value="java">Java</option>
+                                    <option value="php">PHP</option>
+                            </select>
+                            <select name="position" id="" class="form-control">
+                                    <option value="">Vị trí tuyển dụng</option>
+                                    <option value="intern">Intern</option>
+                                    <option value="fresher">Fresher</option>
+                                    <option value="junior">Junior</option>
+                                    <option value="senior">Senior</option>
+                            </select>
+                            <select name="location" id="" class="form-control">
+                                    <option value="">Địa điểm</option>
+                                    <option value="toan-quoc">Toàn quốc</option>
+                                    <option value="ha-noi">Hà Nội</option>
+                                    <option value="ho-chi-minh">Hồ Chí Minh</option>
+                            </select>
+                            <button class="btn primary-btn">Tìm kiếm</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="recruiment-list">
+                    <div class="container">
+                        <div class="recruiment-item">
+                            <div class="recruiment-img">
+                                <img src="../src/img/jobs/job1.jpg" alt="">
+                            </div>
+                            <div class="recruiment-info">
+                                <h4 class="heading heading--small recruiment-title">
+                                    [HCM] Talent Intern/Fresher/Junior Developer
+                                </h4>
+                                <div class="recruiment-content">
+                                    <div class="detail-recruiment-info">
+                                        <div class="detail-recruiment-info-list">
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Expire
+                                                </span>
+                                                <span class="text desc">
+                                                    July 31,2022
+                                                </span>
+                                            </div>
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Type
+                                                </span>
+                                                <span class="text desc">
+                                                    Full time, Part time
+                                                </span>
+                                            </div>
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Location
+                                                </span>
+                                                <span class="text desc">
+                                                    Hồ Chí Minh
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="more-info-tags">
+                                            <div class="tag-item">
+                                                <span>Junior</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>Internship</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>Fresher</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>Java</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>.NET</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>Front-end</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <aside class="recruiment-info-item recruitment-item-sidebar">
+                                        <div class="recruitment-actions course-info-buttons">
+                                            <a href="#" class="btn recruitment-actions-btn primary-btn course-info-button">
+                                                Ứng tuyển ngay
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#" class="btn recruitment-actions-btn normal-btn course-info-button">
+                                                <i class="fa-solid fa-share-nodes"></i> Chia sẻ việc làm
+                                            </a>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recruiment-item">
+                            <div class="recruiment-img">
+                                <img src="../src/img/jobs/job2.jpg" alt="">
+                            </div>
+                            <div class="recruiment-info">
+                                <h4 class="heading heading--small recruiment-title">
+                                    [HN] Fresher Cobol
+                                </h4>
+                                <div class="recruiment-content">
+                                    <div class="detail-recruiment-info">
+                                        <div class="detail-recruiment-info-list">
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Expire
+                                                </span>
+                                                <span class="text desc">
+                                                    August 1,2022
+                                                </span>
+                                            </div>
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Type
+                                                </span>
+                                                <span class="text desc">
+                                                    Full time
+                                                </span>
+                                            </div>
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Location
+                                                </span>
+                                                <span class="text desc">
+                                                    Hà Nội
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="more-info-tags">
+                                            <div class="tag-item">
+                                                <span>Fresher</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <aside class="recruiment-info-item recruitment-item-sidebar">
+                                        <div class="recruitment-actions course-info-buttons">
+                                            <a href="#" class="btn recruitment-actions-btn primary-btn course-info-button">
+                                                Ứng tuyển ngay
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#" class="btn recruitment-actions-btn normal-btn course-info-button">
+                                                <i class="fa-solid fa-share-nodes"></i> Chia sẻ việc làm
+                                            </a>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recruiment-item">
+                            <div class="recruiment-img">
+                                <img src="../src/img/jobs/job3.jpg" alt="">
+                            </div>
+                            <div class="recruiment-info">
+                                <h4 class="heading heading--small recruiment-title">
+                                    [HN] Tuyển giảng viên/trợ giảng dạy lập trình
+                                </h4>
+                                <div class="recruiment-content">
+                                    <div class="detail-recruiment-info">
+                                        <div class="detail-recruiment-info-list">
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Expire
+                                                </span>
+                                                <span class="text desc">
+                                                    June 15,2022
+                                                </span>
+                                            </div>
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Type
+                                                </span>
+                                                <span class="text desc">
+                                                    Full time, Part time
+                                                </span>
+                                            </div>
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Location
+                                                </span>
+                                                <span class="text desc">
+                                                    Hà Nội
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="more-info-tags">
+                                            <div class="tag-item">
+                                                <span>Chuyên viên</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>Python</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>Front-end</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>C/C++</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>C/Embedded</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>Cloud</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <aside class="recruiment-info-item recruitment-item-sidebar">
+                                        <div class="recruitment-actions course-info-buttons">
+                                            <a href="#" class="btn recruitment-actions-btn primary-btn course-info-button">
+                                                Ứng tuyển ngay
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#" class="btn recruitment-actions-btn normal-btn course-info-button">
+                                                <i class="fa-solid fa-share-nodes"></i> Chia sẻ việc làm
+                                            </a>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recruiment-item">
+                            <div class="recruiment-img">
+                                <img src="../src/img/jobs/job4.jpg" alt="">
+                            </div>
+                            <div class="recruiment-info">
+                                <h4 class="heading heading--small recruiment-title">
+                                    [ĐN] On The Job Training CAD
+                                </h4>
+                                <div class="recruiment-content">
+                                    <div class="detail-recruiment-info">
+                                        <div class="detail-recruiment-info-list">
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Expire
+                                                </span>
+                                                <span class="text desc">
+                                                    July 23,2022
+                                                </span>
+                                            </div>
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Type
+                                                </span>
+                                                <span class="text desc">
+                                                    Full time
+                                                </span>
+                                            </div>
+                                            <div class="detail-recruiment-info-item">
+                                                <span class="heading title">
+                                                    Location
+                                                </span>
+                                                <span class="text desc">
+                                                    Đà Nẵng
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="more-info-tags">
+                                            <div class="tag-item">
+                                                <span>On the job training</span>
+                                            </div>
+                                            <div class="tag-item">
+                                                <span>CAD</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <aside class="recruiment-info-item recruitment-item-sidebar">
+                                        <div class="recruitment-actions course-info-buttons">
+                                            <a href="#" class="btn recruitment-actions-btn primary-btn course-info-button">
+                                                Ứng tuyển ngay
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                            <a href="#" class="btn recruitment-actions-btn normal-btn course-info-button">
+                                                <i class="fa-solid fa-share-nodes"></i> Chia sẻ việc làm
+                                            </a>
+                                        </div>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-pagination">
+                            <div class="pagination-list">
+                                <div class="pagination-item">
+                                    <a href="#" class="text active">1</a>
+                                </div>
+                                <div class="pagination-item">
+                                    <a href="#" class="text">2</a>
+                                </div>
+                                <div class="pagination-item">
+                                    <a href="#" class="text">
+                                        <i class="fa-solid fa-angle-right angle-right-icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-social">
+                        <img src="../src/img/footer/logo.png" alt="">
+                        <p class="footer-text footer-desc">
+                            Muốn có công việc mơ ước? Hãy tin tưởng vào chúng tôi. Tại Lesson, việc học sẽ trở nên đơn giản hơn bao giờ hết.
+                        </p>
+                        <div class="footer-social-list">
+                            <a href="#" class="footer-social-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#" class="footer-social-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="footer-social-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="footer-social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-nav">
+                        <h3 class="footer-nav-heading">
+                            Về Lesson
+                        </h3>
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-text footer-nav-link">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-text footer-nav-link">
+                                    Cơ hội việc làm
+                                </a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-text footer-nav-link">
+                                    Đối tác
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h3 class="footer-nav-heading">
+                            Hỗ trợ
+                        </h3>
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-text footer-nav-link">
+                                    FAQ
+                                </a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-text footer-nav-link">
+                                    Điều khoản & Điều kiện
+                                </a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-text footer-nav-link">
+                                    Chính sách bảo mật
+                                </a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-text footer-nav-link">
+                                    Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav footer-address">
+                        <h3 class="footer-nav-heading">
+                            Địa chỉ
+                        </h3>
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-item">
+                                <p class="footer-address footer-text footer-text">
+                                    <span>
+                                    Địa chỉ:
+                                    </span> 27 Division St, New York, NY 10002, USA
+                                </p>
+                            </li>
+                            <li class="footer-nav-item">
+                                <p class="footer-address footer-text footer-text">
+                                    <span>
+                                    Email:
+                                </span> email@gmail.com
+                                </p>
+                            </li>
+                            <li class="footer-nav-item">
+                                <p class="footer-address footer-text footer-text">
+                                    <span>
+                                    Số điện thoại:
+                                </span> + 000 1234 567 890
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="copyright">
+                    Copyright ©2022 All rights reserved
+                </p>
+            </div>
+        </footer>
+        <!-- Footer End -->
+        <script src="../src/js/main.js"></script>
+    </div>
+</body>
+
+</html>

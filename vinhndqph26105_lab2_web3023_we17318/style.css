@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-main {
+    margin-bottom: 10px;
+}
+
+.logo-main {
+    background-color: #333131;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 auto;
+    padding: 47px 0;
+}
+
+.logo-title {
+    font-size: 30px;
+    color: #fefefe;
+}
+
+.nav-menu {
+    background-color: #9e0b0f;
+}
+
+.nav-menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu-link {
+    color: #fbfafa;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px 0;
+}
+
+.slider-main {
+    background-color: #1b1814;
+    padding: 20px 0;
+}
+
+.slider {
+    display: flex;
+    gap: 0 10px;
+}
+
+.slider-content {
+    color: white;
+    background-color: #2c2c2c;
+    padding: 20px 12px;
+    color: #eeece7;
+}
+
+.slider-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.slider-desc {
+    font-size: 12px;
+    /* letter-spacing: 1px; */
+    text-align: justify;
+    line-height: 14px;
+}
+
+.slider-desc a {
+    color: #9e0b0f;
+    text-decoration: none;
+}
+
+.slider-btn {
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 6px;
+    margin: 40px auto 0;
+    border: none;
+    background-color: #9e0b0f;
+    color: #0c0b0b;
+}
+
+.section {
+    margin-bottom: 60px;
+    color: #333131;
+    padding: 20px 0 40px;
+}
+
+.section-title {
+    margin: 20px 0 35px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px 60px;
+}
+
+.products-item {
+    padding: 20px 20px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.products-img img {
+    width: 100%;
+}
+
+.products-price {
+    font-size: 30px;
+}
+
+.footer-main {
+    background-color: #1b1814;
+    padding: 15px 0;
+}
+
+.copyright {
+    color: #827f7f;
+    text-align: center;
+}

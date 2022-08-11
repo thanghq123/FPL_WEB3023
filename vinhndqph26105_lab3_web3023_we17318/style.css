@@ -1,0 +1,265 @@
+:root {
+    --primary-color: #05c357;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+@font-face {
+    font-family: 'matias';
+    src: url(./font/Matias.ttf);
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.header-main {
+    background-color: #333131;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.logo span {
+    font-size: 45px;
+    line-height: 45px;
+    font-family: 'matias';
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 100px 20px 0;
+    border-right: 1px solid var(--primary-color);
+    transition: all 0.2s linear;
+}
+
+.menu-link:hover {
+    color: var(--primary-color);
+}
+
+.menu-item:first-child .menu-link {
+    border-left: 1px solid var(--primary-color);
+}
+
+.banner {
+    padding: 25px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    gap: 0 57px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.banner-content button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 4px 20px;
+    cursor: pointer;
+}
+
+main .container {
+    font-family: 'Tahoma', 'sans-serif';
+}
+
+.category {
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: space-between;
+}
+
+.category-item {
+    background-color: #eead09;
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px 0;
+    border-radius: 8px;
+}
+
+.category-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.show-more-btn {
+    color: inherit;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 220px 220px;
+    grid-template-areas: 'products-list products-list products-nav products-video' 'products-list products-list products-iframe products-iframe';
+    gap: 5px 10px;
+    margin: 36px 0 13px;
+}
+
+.products-list {
+    grid-area: products-list;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.products-item {
+    position: relative;
+    background-color: #6aa619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.products-item:hover .product-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.product-info {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.product-name {
+    font-size: 20px;
+    color: #034a22;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #e36305;
+    font-weight: bold;
+}
+
+.products-nav {
+    grid-area: products-nav;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.products-nav-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.products-icon {
+    font-size: 66px;
+    line-height: 100%;
+}
+
+.products-video {
+    grid-area: products-video;
+    padding: 10px 10px;
+    background-color: #05c357;
+}
+
+.products-video video {
+    background-color: white;
+}
+
+.products-iframe {
+    grid-area: products-iframe;
+    padding: 15px 15px;
+    background-color: #e36305;
+}
+
+.footer {
+    padding: 30px 0;
+    background-color: #333131;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    border-top: 9px solid #05c357;
+}

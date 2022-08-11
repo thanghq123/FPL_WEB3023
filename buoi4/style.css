@@ -1,0 +1,267 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+@font-face {
+    font-family: 'fontbold';
+    src: url(./font/UTMDuepuntozeroBold.ttf);
+}
+
+@font-face {
+    font-family: 'fontnormal';
+    src: url(./font/UTMDuepuntozero.ttf);
+}
+
+body {
+    background-color: #faf4fa;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: 'Tahoma';
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header nav {
+    background-color: #884583;
+}
+
+.header nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-right: 1px solid #a864a8;
+    transition: all 0.2s linear;
+}
+
+.menu-item:last-child .menu-link {
+    border-right: none;
+}
+
+.menu-link:hover {
+    background-color: white;
+    color: #884583;
+}
+
+.menu-link.active {
+    text-decoration: underline;
+}
+
+.form-search input {
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 3px 5px;
+}
+
+.form-search button {
+    padding: 4px 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+    background-color: #6f2170;
+    outline: none;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.form-search button:hover {
+    background-color: rgba(111, 33, 112, 0.2);
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-family: 'fontbold';
+    padding: 10px 0;
+    background-color: white;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 3px 3px #ccc;
+    margin-bottom: 10px;
+}
+
+.header-logo text {
+    transform: translateY(15%);
+}
+
+main {
+    padding: 10px 0 140px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px #ccc;
+    margin-bottom: 10px;
+}
+
+main .container {
+    display: grid;
+    grid-template-columns: 263px auto;
+    gap: 10px;
+}
+
+aside h4 {
+    font-size: 13px;
+    padding: 5px 0;
+    color: white;
+    background-color: #884583;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.list-aside {
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+}
+
+.aside-item {
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #884583;
+    margin-top: 10px;
+    position: relative;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.aside-item:hover {
+    left: 2px;
+    text-decoration: underline;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 10px; */
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item img {
+    opacity: 1;
+    transform: rotate(0);
+    transition: all 2s ease-in-out;
+}
+
+.product-item img:hover {
+    opacity: 0.5;
+    transform: rotate(360deg);
+}
+
+.product-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #884583;
+}
+
+.product-item .product-name {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.product-item .product-name:hover {
+    text-decoration: underline;
+}
+
+.product-item .product-name span {
+    font-size: 20px;
+}
+
+.product-price {
+    color: #bc0374;
+    text-align: center;
+}
+
+.product-item img {
+    /* width: 100px;
+    height: 100px; */
+}
+
+.banner {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+footer {
+    background-color: #884583;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+footer span {
+    font-size: 14px;
+    color: #c7e8e8;
+}
